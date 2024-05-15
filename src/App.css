@@ -1,0 +1,79 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.thumbnail {
+  border-radius: 10px;
+  background-color: #d9edc2;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); 
+  padding: 10px;
+  float: left; 
+  width: 300px; 
+}
+.thumbnails {
+  border-radius: 10px;
+  background-color: #FFFFFF;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); 
+  padding: 10px;
+  float: right; 
+  width: 300px; 
+}
+
+.header {
+  background-color: #808080;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); 
+  border-radius: 20px;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+  text-align: center; 
+}
+
+/* Couleur turquoise pour les températures inférieures à 20°C */
+.thumbnail-turquoise {
+  background-color: #5bc0de; /* Changez cette couleur selon vos préférences */
+}
+
+/* Couleur verte clair pour les températures entre 20°C et 25°C */
+.thumbnail-lightgreen {
+  background-color: #5cb85c; /* Changez cette couleur selon vos préférences */
+}
+
+/* Couleur rouge pour les températures supérieures à 25°C */
+.thumbnail-red {
+  background-color: #d9534f; /* Changez cette couleur selon vos préférences */
+}
